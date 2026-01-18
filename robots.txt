@@ -1,0 +1,8 @@
+# AI Security Guard Landing Page
+# https://aisecguard.junxinzhang.com
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://aisecguard.junxinzhang.com/sitemap.xml
