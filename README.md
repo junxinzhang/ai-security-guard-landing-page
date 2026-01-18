@@ -2,7 +2,7 @@
 
 > Enterprise AI Security Protection Platform - Build security for your AI applications.
 
-![Page Preview](assets/screenshot.png)
+![Page Preview](assets/screenshot.jpg)
 
 ## Project Overview
 
@@ -16,7 +16,7 @@ This is the official landing page for AI Security Guard, showcasing product feat
 - Perfect mobile support
 - Accessibility compliant
 - SEO friendly (Schema.org structured data)
-- Image carousel showcase
+- Image carousel showcase (16 screenshots)
 - Scroll animations (AOS)
 - PWA support
 
@@ -43,8 +43,16 @@ ai-security-guard-landing-page/
 │   ├── favicon.png         # Website icon
 │   ├── icon.png            # PWA icon
 │   ├── logo.png            # Logo
-│   ├── screenshot.png      # Screenshot 1
-│   └── screenshot01.png    # Screenshot 2
+│   ├── screenshot.jpg      # Screenshot 1
+│   ├── screenshot01.jpg    # Screenshot 2
+│   ├── screenshot02.jpg    # Screenshot 3
+│   ├── ...                 # Screenshots 4-15
+│   ├── screenshot15.jpg    # Screenshot 16
+│   └── JustJason_wechat-qrcode.jpg  # WeChat QR code
+├── .github/
+│   └── workflows/
+│       └── static.yml      # GitHub Actions workflow
+├── CNAME                   # Custom domain config
 ├── manifest.json           # PWA configuration
 ├── robots.txt              # Crawler configuration
 ├── sitemap.xml             # Sitemap
@@ -131,16 +139,17 @@ Edit CSS variables in `css/style.css`:
 ### Replace Screenshots
 
 Place new screenshot files in the `assets/` directory:
-- `screenshot.png` (Carousel image 1)
-- `screenshot01.png` (Carousel image 2)
+- `screenshot.jpg` (Carousel image 1)
+- `screenshot01.jpg` to `screenshot15.jpg` (Carousel images 2-16)
 
-Recommended size: 1200x630px
+Recommended size: 900x600px (JPG format)
 
 ## Features
 
 ### Image Carousel
 
 - Auto-play (5 second interval)
+- 16 product screenshots
 - Left/right arrow buttons
 - Bottom indicators
 - Keyboard arrow navigation
